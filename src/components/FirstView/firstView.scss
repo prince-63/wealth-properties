@@ -1,0 +1,44 @@
+.firstView___container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  .compon {
+    z-index: 1;
+  }
+  .one {
+    position: absolute;
+    width: 510px;
+    height: 510px;
+    left: 400px;
+    top: -255px;
+
+    background: #c471ed;
+    opacity: 0.56;
+    filter: blur(200px);
+  }
+
+  .two {
+    position: absolute;
+    width: 510px;
+    height: 510px;
+    left: -255px;
+    top: 450px;
+
+    background: #12c2e9;
+    opacity: 0.56;
+    filter: blur(200px);
+  }
+
+  .three {
+    position: absolute;
+    width: 510px;
+    height: 510px;
+    left: 1185px;
+    top: 200px;
+
+    background: #f64f59;
+    opacity: 0.56;
+    filter: blur(200px);
+  }
+}
