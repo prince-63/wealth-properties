@@ -8,7 +8,10 @@ const About = () => {
     return (
         <>
             <div className="about__container" id='about'>
-                <div className="box1">
+                <div className="box1"
+                    data-aos="fade-right"
+                    data-aos-duration="1200"
+                >
                     <h3>
                         Explore the most attractive areas in Kyiv neighborhoods to buy a home
                     </h3>
@@ -19,7 +22,10 @@ const About = () => {
                         Kyiv is the capital and most populous city of Ukraine.The city`s name is said to derive from the name of Kyi, one of its four legendary founders. We rank amongst the Top 6 agencies in the world.
                     </p>
                 </div>
-                <div className="box">
+                <div className="box"
+                    data-aos="fade-left"
+                    data-aos-duration="1200"
+                >
                     <div className='icons'>
                         <div className="left">
                             <div className="icon">
@@ -28,7 +34,7 @@ const About = () => {
                                 </div>
                                 <div>
                                     <small>
-                                        Trusted and verified property listings.
+                                    Personalized filters that make property search easier.
                                     </small>
                                 </div>
                             </div>
@@ -38,7 +44,7 @@ const About = () => {
                                 </div>
                                 <div>
                                     <small>
-                                        Complete info on trending properties listed.
+                                    Details info about the property that are in wishlist.
                                     </small>
                                 </div>
                             </div>
@@ -48,7 +54,7 @@ const About = () => {
                                 </div>
                                 <div>
                                     <small>
-                                        Home plan layouts for virtual tours of every house.
+                                    QR scan code for retrieving property details..
                                     </small>
                                 </div>
                             </div>

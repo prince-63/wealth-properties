@@ -32,10 +32,11 @@
           #c471ed 53.22%,
           #f64f59 122.28%
         );
+        font-size: 1.5rem;
+        color: white;
+        border: none;
+        padding: 7px 20px;
         border-radius: 4px;
-        padding: 5px 15px;
-        transition: 0.5s all;
-        cursor: pointer;
 
         &:hover {
           opacity: 80%;

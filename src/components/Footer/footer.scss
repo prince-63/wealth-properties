@@ -5,6 +5,7 @@
   justify-content: space-around;
   align-items: flex-start;
   padding: 40px;
+  overflow: hidden;
 
   .image__container {
     img {
@@ -29,21 +30,42 @@
     }
 
     button {
+      font-size: 1.5rem;
       background: linear-gradient(
         90deg,
         #12c2e9 -15.84%,
         #c471ed 53.22%,
         #f64f59 122.28%
       );
-      border-radius: 4px;
       color: white;
+      border: none;
+      padding: 7px 20px;
+      border-radius: 4px;
+      transition: .5s all;
+
+      &:hover {
+        opacity: 80%;
+      }
     }
   }
 }
 
-@media (max-width : 570px) {
+@media (max-width: 570px) {
   .footer__container {
     flex-direction: column;
     align-items: center;
+    .text__container {
+      gap: 15px;
+      p {
+        font-size: 1.5rem;
+      }
+      button {
+        border: 0.5px solid hsla(280, 78%, 69%, 1);
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-size: 1.7rem;
+        border: none;
+      }
+    }
   }
 }

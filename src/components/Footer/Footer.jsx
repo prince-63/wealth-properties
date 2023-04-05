@@ -5,10 +5,17 @@ const Footer = () => {
     return (
         <>
             <div className="footer__container">
-                <div className='image__container'>
+                <div className='image__container'
+                    data-aos="fade-right"
+                    data-aos-duration="1200"
+
+                >
                     <img src={img8} alt="this is a pic" />
                 </div>
-                <div className='text__container'>
+                <div className='text__container'
+                    data-aos="fade-left"
+                    data-aos-duration="1200"
+                >
                     <h2>Let Us Help You Find Your Ideal Buyer!</h2>
                     <p>Interior brings 41 years of interior designs experience right to your home or office. Our design professionals are equipped to help you determine the products and design that work best for our customers.</p>
                     <div>

@@ -9,16 +9,16 @@ const Nav = () => {
     const [use, changeState] = useState("no")
 
     function change() {
-        if(use === "no") {
+        if (use === "no") {
             changeState("active");
-        }else {
+        } else {
             changeState("no");
         }
-    } 
+    }
 
     return (
         <>
-            <div className='nav__container'>
+            <div className='nav__container' id="nav">
                 <div className='logo__section'>
                     <img src={logo} alt="this is a logo" />
                 </div>
@@ -26,28 +26,28 @@ const Nav = () => {
                     <div className='link__section'>
                         <ul>
                             <li>
-                                <a href="/">Home</a>
+                                <a href="#footer">Home</a>
                             </li>
                             <li>
-                                <a href="#change">Profile</a>
+                                <a href="#footer">Profile</a>
                             </li>
                             <li>
-                                <a href="/">Reports</a>
+                                <a href="#footer">Reports</a>
                             </li>
                             <li>
-                                <a href="/">Insights</a>
+                                <a href="#footer">Insights</a>
                             </li>
                         </ul>
                     </div>
                     <div className='button__section'>
-                        <button>Login</button>
-                        <button>Get Started</button>
-                    </div>
-                </div>
-                <div className="menu">
-                    <GrMenu id='menu' onClick={change} />
+                        <a href="#footer"><button> Login</button></a>
+                        <a href="#footer"><button> Get Started</button></a>
                 </div>
             </div>
+            <div className="menu">
+                <GrMenu id='menu' onClick={change} />
+            </div>
+        </div >
         </>
     )
 }

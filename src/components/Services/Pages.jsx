@@ -1,13 +1,17 @@
 import React from 'react'
 import "./services.scss"
 
+
 const Pages = ({ img, title, body, item1, item2, item3, item4, item5, id }) => {
     return (
 
         <>
             {
                 id === "0" ?
-                    <div className="pages__container">
+                    <div className="pages__container" data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                    >
                         <div className="img__section">
                             <img src={img} alt="this is a pic" />
                         </div>
@@ -29,7 +33,11 @@ const Pages = ({ img, title, body, item1, item2, item3, item4, item5, id }) => {
                         </div>
                     </div>
                     :
-                    <div className="pages__container" id='reverse'>
+                    <div className="pages__container" id='reverse' 
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                    >
                         <div className="text__container">
                             <h2>{title}</h2>
                             <p>{body}</p>
