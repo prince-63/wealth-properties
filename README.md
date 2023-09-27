@@ -1,3 +1,10 @@
+# <a href="https://wealth-properties.netlify.app/">OverView</a>
+- This a simplest website landing page clone.
+- Technology used : HTML, CSS, JAVASCRIPT, REACT JS.
+</br>
+
+![Screenshot 2023-09-27 225445](https://github.com/prince-63/Wealth-Properties/assets/111671729/b3337a1b-0c0b-4808-9d66-912feacd0163)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
